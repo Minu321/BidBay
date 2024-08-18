@@ -1,0 +1,23 @@
+{
+  "name": "bidbay",
+  "version": "1.0.0",
+  "description": "The auction website BidBay",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/Minu321/BidBay"
+  },
+  "keywords": [
+    "Auction"
+  ],
+  "author": "Minu321",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "bootstrap-icons": "^1.11.3",
+    "material-icons": "^1.13.12"
+  }
+}

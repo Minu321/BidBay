@@ -1,0 +1,132 @@
+<!DOCTYPE html data-bs-theme="dark">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Welcome to BidBay! View current listings! Log in or create an account to place bids and create your own listings."
+    />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <script
+      src="https://kit.fontawesome.com/3d84ee808b.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      defer
+      src="../../../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+    ></script>
+    
+    <title>BidBay | Listings</title>
+  </head>
+  <body class="bg-dark">
+    <div class="container-fluid px-0 bg-dark">
+      <div class="container">
+        <header
+          class="d-flex flex-wrap allign-items-center justify-content-center justify-content-md-between pt-3 pb-2"
+        >
+          <a
+            class="col-md-3 d-flex allign-items-center mb-2 mb-md-0 h4 text-white text-decoration-none text-uppercase text-primary"
+            href="../../index.html"
+            ><span class="material-icons-outlined me-1">gavel</span>BidBay</a
+          >
+          <ul class="nav col-md-auto mb-2 justify-content-center mb-md-0">
+            <li class="nav-item">
+              <a class="nav-link text-secondary text-uppercase px-2" href="../../index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-secondary text-uppercase px-2" href="/html/profile/login/index.html"
+                >Login</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-secondary text-uppercase px-2" href="#"
+                >Listings</a
+              >
+            </li>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-secondary text-uppercase px-2" href="/html/profile/user.html"
+              >Profile</a
+            >
+          </li>
+          </ul>
+          <div class="col-md-3 text-end">
+            <a class="ms-3 text-decoration-none" href="#"><i class="bi bi-twitter-x text-primary"></i></a>
+            <a class="ms-3 text-decoration-none" href="#"><i class="bi bi-instagram text-primary"></i></a>
+            <a class="ms-3 text-decoration-none" href="#"><i class="bi bi-facebook text-primary"></i>
+            </a>
+          </div>
+        </header>
+      </div>
+      <main class="container mt-4">
+        <div class="mb-4  p-3 rounded">
+          <a href="../post/create/index.html"><h3 class="mb-3 text-bg-secondary p-3 rounded">Create a New Post</h3></a>
+         
+        </div>
+     
+        <div class="mb-4 text-bg-secondary p-3 rounded">
+          
+            <h3>Search</h3>
+            <input type="text" class="form-control" id="searchInput" placeholder="Search..." />
+        </div>
+  
+      
+        <div class="mb-4 text-bg-secondary p-3 rounded">
+          <label for="sortOptions" class="form-label">Sort by:</label>
+          <select id="sortOptions" class="form-select">
+            <option value="latest">Latest</option>
+            <option value="popular">Popular</option>
+            <option value="trending">Trending</option>
+          </select>
+        </div>
+  
+        <div class="row mb-4 mt-4 text-bg-secondary p-3 rounded">
+          <h3 class="mb-4">Latest Posts </h3>
+          <ul class="list-group" id="postList">
+              <div class="card mb-5 bg-dark " id="post">
+          </ul>
+        </div>
+      </div>
+  
+      </main>
+      <footer class="bg-dark text-light mt-5 py-3 fixed-bottom ">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <h5>BidBay</h5>
+              <p>&copy; 2024 All rights reserved</p>
+            </div>
+            <div class="col-md-6 text-md-end">
+              <ul class="list-inline">
+                <li class="list-inline-item"><a href="#">Home</a></li>
+                <li class="list-inline-item"><a href="#">About</a></li>
+                <li class="list-inline-item"><a href="#">Listings</a></li>
+                <li class="list-inline-item"><a href="#">Login</a></li>
+              </ul>
+            </div>
+          </div>
+  
+          <div class="row mt-3">
+            <div class="col-md-12 text-center">
+              <ul class="list-inline">
+                <li class="list-inline-item">
+                  <a href="#" target="_blank"><i class="bi bi-twitter-x"></i></a>
+                </li>
+               
+                <li class="list-inline-item">
+                  <a href="#" target="_blank"><i class="bi bi-instagram"></i></a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#" target="_blank"><i class="bi bi-facebook"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+   <script type="module" src="../../js/listings.mjs"></script>
+  </body>
+</html>

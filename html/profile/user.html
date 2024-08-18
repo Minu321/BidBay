@@ -1,0 +1,152 @@
+<!DOCTYPE html data-bs-theme="dark">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Welcome to BidBay! Log in or create an account to place bids and create your own listings."
+    />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <script
+      defer
+      src="../../../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+    ></script>
+    <script type="module" defer src="/js/api/profile/ownProfile.mjs"></script>
+    <title>BidBay | Profile</title>
+  </head>
+  <body class="bg-dark">
+    <div class="container-fluid px-0 bg-dark">
+      <div class="container">
+        <header
+          class="d-flex flex-wrap allign-items-center justify-content-center justify-content-md-between pt-3 pb-2"
+        >
+          <a
+            class="col-md-3 d-flex allign-items-center mb-2 mb-md-0 h4 text-white text-decoration-none text-uppercase text-primary"
+            href="../../index.html"
+            ><span class="material-icons-outlined me-1">gavel</span>BidBay</a
+          >
+          <ul class="nav col-md-auto mb-2 justify-content-center mb-md-0">
+            <li class="nav-item">
+              <a class="nav-link text-secondary text-uppercase px-2" href="../../index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-secondary text-uppercase px-2" href="/html/profile/login/index.html"
+                >Login</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-secondary text-uppercase px-2" href="/html/listings/index.html"
+                >Listings</a
+              >
+            </li>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-info text-uppercase px-2" href="/html/profile/user.html"
+              >Profile</a
+            >
+          </li>
+          </ul>
+          <div class="col-md-3 text-end">
+            <a class="ms-3 text-decoration-none" href="#"><i class="bi bi-twitter-x text-primary"></i></a>
+            <a class="ms-3 text-decoration-none" href="#"><i class="bi bi-instagram text-primary"></i></a>
+            <a class="ms-3 text-decoration-none" href="#"><i class="bi bi-facebook text-primary"></i>
+            </a>
+          </div>
+        </header>
+      </div>
+      <main class="container-fluid container mt-4 text p-5 ">
+        <div class="banner-container" style="height: 200px;">
+          <img src="" alt="Profile banner" id="profileBanner" class="img-fluid " style="height: 100%; width: 100%; object-fit:none;">
+  
+      </div>
+     
+        <div class="text-bg-secondary p-3 rounded">
+          <div class="container mt-5">
+          
+            <div class="row mb-4">
+              <div class="col-md-3">
+                <img
+                  src=""
+                  alt="Profile Image"
+                  id="profileAvatar"
+                  class="img-fluid rounded mx-auto d-block"
+                  style="height: 150px; width: 150px;"
+                />
+              </div>
+              <div class="col-md-9">
+                <h2 class="alert alert-dark text-primary font-weight-bold" id="username"></h2>
+                <div class="alert alert-dark text-primary ">
+                <p class="h5">Your current credit blance:</p></h4><h4  id="credits"> </h4></div>
+                
+                <button class="btn btn-primary">  Follow</button>  <button class="btn btn-danger">Report</button>
+              </div>
+            </div>
+  
+       
+            <div class="row mb-3">
+              <div class="col-md-12 mb-5">
+               
+              </div>
+            </div>
+          </div>
+  
+        
+          <div class="row mb-4 mt-4">
+              <h3 class="mb-4">Latest Listings:</h3>
+              <ul class="list-group">
+                  <div class="card mb-3" >
+                     
+                      </div>
+                    </div>
+                    
+  
+              </ul>
+            </div>
+          </div>
+  
+    
+          
+        </div>
+      </main>
+      <footer class="bg-dark text-light mt-5 py-3  ">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <h5>BidBay</h5>
+              <p>&copy; 2024 All rights reserved</p>
+            </div>
+            <div class="col-md-6 text-md-end">
+              <ul class="list-inline">
+                <li class="list-inline-item"><a href="#">Feed</a></li>
+                <li class="list-inline-item"><a href="#">About</a></li>
+                <li class="list-inline-item"><a href="#">Contact</a></li>
+                <li class="list-inline-item"><a href="#">Terms</a></li>
+              </ul>
+            </div>
+          </div>
+  
+          <div class="row mt-3">
+            <div class="col-md-12 text-center">
+              <ul class="list-inline">
+                <li class="list-inline-item">
+                  <a href="#" target="_blank"><i class="bi bi-twitter-x"></i></a>
+                </li>
+               
+                <li class="list-inline-item">
+                  <a href="#" target="_blank"><i class="bi bi-instagram"></i></a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#" target="_blank"><i class="bi bi-facebook"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+   
+  </body>
+</html>
