@@ -1,0 +1,32 @@
+// custom variables
+$primary:  #3462BF;
+$secondary:#F2B705;
+$success:  #35F2F2;
+$info:     #30CFF2;
+$warning:  #F28907;
+$line-height: 1px;
+
+
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+@import '../node_modules/bootstrap-icons/font/bootstrap-icons.css';
+@import '../node_modules/material-icons/iconfont/material-icons.css';
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: dark;
+}
+
+.sellerAvatar{
+    max-height: 50px;
+    max-width: 50px;
+}
+
+.help {
+    display: none;
+}
+
+input:invalid + .help{
+display: block;
+}
