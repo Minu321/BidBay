@@ -29,16 +29,24 @@ Material Icons: For UI icons.
 
    git clone https://github.com/Minu321/BidBay.git
 
-2. Navigate to the Project Directory
+2. **Navigate to the Project Directory**
 
 cd BidBay
 
-3. Install Dependencies
+3. **Install Dependencies**
 
 Install the required dependencies using npm:
 npm install
-Run the Application
+
+4. **Run the Application**
 
 To start the application locally, use the following command:
 
 npm start
+
+
+## Contact:
+[LinkedIn](https://www.linkedin.com/in/mina-roseth-beni-652b90292/)
+
+## Contribute
+Thank you for checking out Holidaze! If you have any questions or encounter issues, feel free to open an issue or contribute to the project.
